@@ -1,0 +1,69 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    font: 14px sans-serif;
+}
+
+body {
+    background-image: url("../Images/fundo.jpg");
+    background-size: cover;
+}
+
+form {
+    background-color: #ffffff;
+    width: 700px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align:center;
+}
+
+    form h1 {
+        color:#3e1010;
+        font-size:35px;
+        padding:40px;
+    }
+
+    form p{
+        display:inline-block;
+        border:1px solid #3e1010;
+        border-radius:8px;
+        padding:20px 90px;
+        font-size:18px;
+        margin-bottom:50px;
+    }
+
+    .facebook{
+        background-color:aqua;
+        color:#ffffff;
+        margin-right:20px;
+    }
+
+    form label{
+        display:block;
+        text-align:left;
+        margin-left:90px;
+        color:#5a3939;
+        margin-bottom:10px;
+    }
+
+form input[type="text"],
+form input[type="password"] {
+    border: 1px solid #3e1010;
+    border-radius:5px;
+    width:481px;
+    padding:20px;
+    margin-bottom:30px;
+}
+
+form input[type="submit"] {
+    border: 1px solid #3e1010;
+    border-radius: 5px;
+    width: 524px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color:#5a3939;
+    color:aliceblue;
+}
+    
